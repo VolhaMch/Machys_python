@@ -1,3 +1,7 @@
-No. The given bracket sequence is not correct due to extra closing bracket "]" and absense of a closing bracket to "(".
-To make it correct, extra closing bracket "]" should be removed and a closing bracket ")" should be added to match the opening bracket.
-Corrected sequence: [((())()(()))]
+No. The given bracket sequence is not correct because a closing bracket "]" and an opening bracket "(" has no pair.
+To make it correct, they should get pairs, some variants are possible:
+- add matching pairs: add an opening bracket "[" and a closing bracket ")" to match the sequence
+- delete unmatched brackets: remove brackets without pair - "]" and "("
+- adjust brackets:
+    > add the opening bracket "[" and delete the extra opening bracket "("
+    > add the closing bracket ")" and delete the extra closing bracket "]"
