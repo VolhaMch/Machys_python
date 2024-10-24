@@ -4,15 +4,11 @@ def main():
     if number  > 7:
         print("Hello")
 
-
-
     user_name = input("Enter your name: ")
     if user_name == "John":
         print("Hello, John")
     else:
         print("There is no such name")
-
-
 
     numeric_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     multiples_of_3 = []
@@ -21,5 +17,7 @@ def main():
             multiples_of_3.append(number)
 
     print("Multiples of 3 are: ", multiples_of_3)
+
+
 if __name__ == "__main__":
     main()
